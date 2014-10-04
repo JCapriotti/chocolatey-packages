@@ -2,25 +2,28 @@
 <!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>ConsoleZ.Settings</id>
     <title>ConsoleZ Settings Installation</title>
-    <version>1.0.0.20141003</version>
+    <version>1.0.0.20141004</version>
     <authors>Jason Capriotti</authors>
     <owners>Jason Capriotti</owners>
     <summary>Allows ConsoleZ settings to be installed from a provided URL</summary>
-    <description>
-		Allows ConsoleZ settings to be installed from a provided URL. 
+    <description>Allows ConsoleZ settings to be installed from a provided URL. 
 		
 		To use, you will need to call Chocolatey like so (I recommend using the -Force flag):
-			 choco install ConsoleZ.Settings -params 'url=https://yoursite.com/console.xml' -force
+		
+		choco install ConsoleZ.Settings -params 'url=https://yoursite.com/console.xml' -force
+		
 	</description>
     <projectUrl>https://github.com/JCapriotti/chocolatey</projectUrl>
     <tags>ConsoleZ</tags>
     <copyright></copyright>
     <licenseUrl>http://www.wtfpl.net</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes></releaseNotes>
+    <iconUrl>https://cdn.rawgit.com/JCapriotti/chocolatey/master/ConsoleZ.Settings/ConsoleZ.Settings.ico</iconUrl>
+    <releaseNotes>
+	1.0.0.20141004 - Tweaked description and added an icon.
+	</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

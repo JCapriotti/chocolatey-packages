@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Notepadplusplus.Settings</id>
+    <title>Notepad++ Settings Installation</title>
+    <version>1.0.0.20141005</version>
+    <authors>Jason Capriotti</authors>
+    <owners>Jason Capriotti</owners>
+    <summary>Allows Notepad++ settings to be installed from a provided URL.</summary>
+    <description>Allows Notepad++ settings to be installed from a provided URL. 
+		
+	To use, you will need to call Chocolatey like so (I recommend using the -Force flag):
+		
+		choco install notepadplusplus.settings -params 'url=https://yoursite.com/NotepadSettings/' -force
+		
+	Because Notepad++ has several configuration files, the URL must specify a folder. The package installation will then attempt to download all of the following files:
+		* config.xml
+		* contextMenu.xml
+		* functionList.xml
+		* langs.xml
+		* shortcuts.xml
+		* stylers.xml
+		* &lt;your theme&gt;.xml
+	
+	To get your theme copied, you must drop your current theme file into the directory as well.
+	
+	</description>
+    <projectUrl>https://github.com/JCapriotti/chocolatey/tree/master/Notepadplusplus.Settings</projectUrl>
+    <tags>notepad notepadplusplus notepad-plus-plus</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.wtfpl.net</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/JCapriotti/chocolatey/master/Notepadplusplus.Settings/Notepadplusplus.Settings.ico</iconUrl>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

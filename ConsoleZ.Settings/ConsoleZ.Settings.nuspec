@@ -10,12 +10,12 @@
     <summary>Allows ConsoleZ settings to be installed from a provided URL</summary>
     <description>Allows ConsoleZ settings to be installed from a provided URL. 
 		
-		To use, you will need to call Chocolatey like so (I recommend using the -Force flag):
+	To use, you will need to call Chocolatey like so (I recommend using the -Force flag):
 		
 		choco install ConsoleZ.Settings -params 'url=https://yoursite.com/console.xml' -force
 		
 	</description>
-    <projectUrl>https://github.com/JCapriotti/chocolatey</projectUrl>
+    <projectUrl>https://github.com/JCapriotti/chocolatey/tree/master/ConsoleZ.Settings</projectUrl>
     <tags>ConsoleZ</tags>
     <copyright></copyright>
     <licenseUrl>http://www.wtfpl.net</licenseUrl>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>batch-install-vsix</id>
+    <title>Batch Install VSIX</title>
+    <version>1.0.0</version>
+    <authors>Jason Capriotti</authors>
+    <owners>Jason Capriotti</owners>
+    <summary>Installs Visual Studio Extensions defined within a configuration file.</summary>
+    <description>Installs Visual Studio Extensions defined within a configuration file.</description>
+    <projectUrl>https://github.com/JCapriotti/chocolatey-VisualStudioExtensions</projectUrl>
+    <tags>Visual Studio Extensions vsix</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.wtfpl.net/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

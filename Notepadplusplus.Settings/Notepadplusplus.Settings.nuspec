@@ -4,7 +4,7 @@
   <metadata>
     <id>Notepadplusplus.Settings</id>
     <title>Notepad++ Settings Installation</title>
-    <version>1.0.0.20141005</version>
+    <version>1.0.0.20141015</version>
     <authors>Jason Capriotti</authors>
     <owners>Jason Capriotti</owners>
     <summary>Allows Notepad++ settings to be installed from a provided URL.</summary>
@@ -32,7 +32,9 @@
     <licenseUrl>http://www.wtfpl.net</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/JCapriotti/chocolatey/master/Notepadplusplus.Settings/Notepadplusplus.Settings.ico</iconUrl>
-    <releaseNotes></releaseNotes>
+    <releaseNotes>
+		20141015 - Fixing issue with incorrect Program Files path on 32-bit systems. 
+	</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

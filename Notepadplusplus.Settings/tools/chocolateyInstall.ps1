@@ -5,6 +5,7 @@ try
 {
 	$params = $env:chocolateyPackageParameters -split ';' | ConvertFrom-StringData
 	$url = $params.url;
+	$programFiles = if (${env:ProgramFiles(x86)} -ne $null) { ${env:ProgramFiles(x86)} } else { $env:ProgramFiles }
 	
 	if ($url -ne $null)
 	{
@@ -20,7 +21,7 @@ try
 		$themeNode = Select-Xml -Path "$env:appdata\notepad++\config.xml" -XPath "//GUIConfig[@name='stylerTheme']"
 		$themePath = $themeNode.node.path
 		$themeFile = Split-Path $themePath -Leaf
-		Get-ChocolateyWebFile $packageName " ${env:ProgramFiles(x86)}\Notepad++\themes\$themeFile" "$url/$themeFile"
+		Get-ChocolateyWebFile $packageName " $programFiles\Notepad++\themes\$themeFile" "$url/$themeFile"
 	}
 	else 
 	{

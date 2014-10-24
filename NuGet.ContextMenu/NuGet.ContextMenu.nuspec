@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>NuGet.ContextMenu</id>
+	<title>NuGet ContextMenu Add-On</title>
+    <version>1.0.0.20141024</version>
+    <authors>Jason Capriotti</authors>
+    <owners>Jason Capriotti</owners>
+	<summary>Adds a right-click context menu for NuGet actions in Explorer windows.</summary>
+    <description>Adds a right-click context menu for NuGet actions in Explorer windows.</description>
+    <projectUrl>https://github.com/JCapriotti/chocolatey/tree/master/NuGet.ContextMenu</projectUrl>
+	<tags>NuGet Context Menu</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.wtfpl.net</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/JCapriotti/chocolatey/master/ConsoleZ.Settings/ConsoleZ.Settings.ico</iconUrl>
+    <releaseNotes>
+	</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

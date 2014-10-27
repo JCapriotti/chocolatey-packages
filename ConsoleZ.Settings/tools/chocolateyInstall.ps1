@@ -9,6 +9,7 @@ try
 	if ($url -ne $null)
 	{
 		Write-Host "Downloading from URL $url"
+		New-Item "$env:appdata\console" -Type Directory -Force
 		Get-ChocolateyWebFile $packageName "$env:appdata\console\console.xml" $url
 	}
 	else 

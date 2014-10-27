@@ -21,7 +21,7 @@ try
 		$themeNode = Select-Xml -Path "$env:appdata\notepad++\config.xml" -XPath "//GUIConfig[@name='stylerTheme']"
 		$themePath = $themeNode.node.path
 		$themeFile = Split-Path $themePath -Leaf
-		Get-ChocolateyWebFile $packageName " $programFiles\Notepad++\themes\$themeFile" "$url/$themeFile"
+		Get-ChocolateyWebFile $packageName "$programFiles\Notepad++\themes\$themeFile" "$url/$themeFile"
 	}
 	else 
 	{

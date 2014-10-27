@@ -9,10 +9,11 @@
     <owners>Jason Capriotti</owners>
     <summary>Allows ConsoleZ settings to be installed from a provided URL</summary>
     <description>Allows ConsoleZ settings to be installed from a provided URL. 		
-	To use, you will need to call Chocolatey like so (I recommend using the -Force flag):
+	To use, you will need to call Chocolatey like so:
 		
-		choco install ConsoleZ.Settings -params 'url=https://yoursite.com/console.xml' -force
-		
+		choco install ConsoleZ.Settings -params 'url=https://yoursite.com/console.xml'
+
+I recommend using the -Force flag for subsequent settings updates.
 	</description>
     <projectUrl>https://github.com/JCapriotti/chocolatey/tree/master/ConsoleZ.Settings</projectUrl>
     <tags>ConsoleZ</tags>
@@ -21,7 +22,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/JCapriotti/chocolatey/master/ConsoleZ.Settings/ConsoleZ.Settings.ico</iconUrl>
     <releaseNotes>
-	1.0.0.20141027 - Fixed issue where file fails to copy if the folder doesn't already exist.
+	1.0.0.20141027 - Fixed issue where file fails to copy if the folder doesn't already exist. Changed warning to a failure when URL is not specified.
 	1.0.0.20141004 - Tweaked description and added an icon.
 	</releaseNotes>
   </metadata>

@@ -14,13 +14,12 @@ try
 		Write-Host "Downloading from URL $url"
 		New-Item "$env:appdata\console" -Type Directory -Force
 		Get-ChocolateyWebFile $packageName "$env:appdata\console\console.xml" $url
-		Write-ChocolateySuccess "$packageName"
 	}
 	else 
 	{
-		Write-ChocolateyFailure "$packageName" "No URL specified. Try calling choco install ConsoleZ.Settings -params 'url=http://example.com'"
-		return
+		throw "No URL specified. Try calling choco install ConsoleZ.Settings -params 'url=http://example.com'"
 	}
+	Write-ChocolateySuccess "$packageName"
 } 
 catch 
 {

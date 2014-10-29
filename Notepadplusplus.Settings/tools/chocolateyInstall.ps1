@@ -7,7 +7,7 @@ try
 	$url = $params.url;
 	$programFiles = if (${env:ProgramFiles(x86)} -ne $null) { ${env:ProgramFiles(x86)} } else { $env:ProgramFiles }
 	
-	if ($url -ne $null)
+	if ($url)
 	{
 		Write-Host "Downloading from URL $url"
 		Get-ChocolateyWebFile $packageName "$env:appdata\Notepad++\config.xml" "$url/config.xml"
@@ -25,7 +25,7 @@ try
 	}
 	else 
 	{
-		Write-Warning "No URL specified. Try calling choco install Notepadplusplus.Settings -params 'url=http://example.com/NotepadSettings/'"
+		throw "No URL specified. Try calling choco install Notepadplusplus.Settings -params 'url=http://example.com/NotepadSettings/'"
 	}
 	
 	Write-ChocolateySuccess "$packageName"

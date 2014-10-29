@@ -10,21 +10,22 @@
     <summary>Allows Notepad++ settings to be installed from a provided URL.</summary>
     <description>Allows Notepad++ settings to be installed from a provided URL. 
 		
-	To use, you will need to call Chocolatey like so (I recommend using the -Force flag):
+To use, you will need to call Chocolatey like so:
 		
-		choco install notepadplusplus.settings -params 'url=https://yoursite.com/NotepadSettings/' -force
-		
-	Because Notepad++ has several configuration files, the URL must specify a folder. The package installation will then attempt to download all of the following files:
-		* config.xml
-		* contextMenu.xml
-		* functionList.xml
-		* langs.xml
-		* shortcuts.xml
-		* stylers.xml
-		* &lt;your theme&gt;.xml
+	choco install notepadplusplus.settings -params 'url=https://yoursite.com/NotepadSettings/'
+
+I recommend using the -Force flag for subsequent settings updates.
+
+Because Notepad++ has several configuration files, the URL must specify a folder. The package installation will then attempt to download all of the following files:
+* config.xml
+* contextMenu.xml
+* functionList.xml
+* langs.xml
+* shortcuts.xml
+* stylers.xml
+* &lt;your theme&gt;.xml 
 	
-	To get your theme copied, you must drop your current theme file into the directory as well.
-	
+To get your theme copied, you must drop your current theme file into the directory as well.
 	</description>
     <projectUrl>https://github.com/JCapriotti/chocolatey/tree/master/Notepadplusplus.Settings</projectUrl>
     <tags>notepad notepadplusplus notepad-plus-plus</tags>
@@ -33,7 +34,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/JCapriotti/chocolatey/master/Notepadplusplus.Settings/Notepadplusplus.Settings.ico</iconUrl>
     <releaseNotes>
-		20141027 - Had a bug due to a rogue space 
+		20141027 - Had a bug due to a rogue space, cleaning up error messaging.
 		20141015 - Fixing issue with incorrect Program Files path on 32-bit systems. 
 	</releaseNotes>
   </metadata>

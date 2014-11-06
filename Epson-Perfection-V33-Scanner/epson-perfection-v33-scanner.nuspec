@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>epson-perfection-v33-scanner</id>
+		<title>Epson Perfection Scanner V33, V330</title>
+		<version>3.9.0.0</version>
+		<authors>Epson</authors>
+		<owners>Jason Capriotti</owners>
+		<summary>This file contains the Epson Perfection V33, V330 Photo EPSON Scan Utility and Scanner Driver (TWAIN) v3.9.0.0</summary>
+		<description>This file contains the Epson Perfection V33, V330 Photo EPSON Scan Utility and Scanner Driver (TWAIN) v3.9.0.0. Compatible Systems: Windows 8.1 32-bit, Windows 8.1 64-bit, Windows 8 32-bit, Windows 8 64-bit, Windows 7 32-bit, Windows 7 64-bit, Windows Vista 32-bit, Windows Vista 64-bit, Windows XP 32-bit, Windows XP 64-bit, Windows 2000</description>
+		<projectUrl>https://github.com/JCapriotti/Chocolatey</projectUrl>
+		<tags>Epson Perfection Scan</tags>
+		<copyright></copyright>
+		<licenseUrl>http://www.epson.com/cgi-bin/Store/support/SupportLicense_alt.jsp?licenseoid=17774</licenseUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
+</package>

@@ -13,6 +13,7 @@
 		<copyright></copyright>
 		<licenseUrl>http://www.epson.com/cgi-bin/Store/support/SupportLicense_alt.jsp?licenseoid=17774</licenseUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<iconUrl>https://cdn.rawgit.com/JCapriotti/chocolatey/master/Epson-Perfection-V33-Scanner/icon128.png</iconUrl>
 	</metadata>
 	<files>
 		<file src="tools\**" target="tools" />

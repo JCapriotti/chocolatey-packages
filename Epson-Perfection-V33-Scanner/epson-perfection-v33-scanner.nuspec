@@ -3,11 +3,11 @@
 	<metadata>
 		<id>epson-perfection-v33-scanner</id>
 		<title>Epson Perfection Scanner V33, V330</title>
-		<version>3.9.0.0</version>
+		<version>3.9.2.2</version>
 		<authors>Epson</authors>
 		<owners>Jason Capriotti</owners>
-		<summary>This file contains the Epson Perfection V33, V330 Photo EPSON Scan Utility and Scanner Driver (TWAIN) v3.9.0.0</summary>
-		<description>This file contains the Epson Perfection V33, V330 Photo EPSON Scan Utility and Scanner Driver (TWAIN) v3.9.0.0. Compatible Systems: Windows 8.1 32-bit, Windows 8.1 64-bit, Windows 8 32-bit, Windows 8 64-bit, Windows 7 32-bit, Windows 7 64-bit, Windows Vista 32-bit, Windows Vista 64-bit, Windows XP 32-bit, Windows XP 64-bit, Windows 2000</description>
+		<summary>This file contains the Epson Perfection V33, V330 Photo EPSON Scan Utility and Scanner Driver (TWAIN) v3.9.2.2</summary>
+		<description>This file contains the Epson Perfection V33, V330 Photo EPSON Scan Utility and Scanner Driver (TWAIN) v3.9.2.2. Windows 10 32-bit, Windows 10 64-bit, Windows 8.1 32-bit, Windows 8.1 64-bit, Windows 8 32-bit, Windows 8 64-bit, Windows 7 32-bit, Windows 7 64-bit, Windows Vista 32-bit, Windows Vista 64-bit, Windows XP 32-bit, Windows XP 64-bit</description>
 		<projectUrl>http://www.epson.com/cgi-bin/Store/support/supDetail.jsp?oid=154806</projectUrl>
 		<tags>Epson Perfection Scan</tags>
 		<copyright></copyright>

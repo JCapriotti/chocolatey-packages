@@ -1,5 +1,5 @@
-$packageName = "Scanner Driver and EPSON Scan Utility v3.9.0.0"
-$url = "https://ftp.epson.com/drivers/epson13870.exe"
+$packageName = "Scanner Driver and EPSON Scan Utility v3.9.2.2"
+$url = "https://ftp.epson.com/drivers/epson17286.exe"
 $silentArgs = "/SI"
 $fileType = "EXE"
 $validExitCodes = @(0)

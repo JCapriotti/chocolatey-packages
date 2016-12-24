@@ -7,13 +7,14 @@
 		<authors>Epson</authors>
 		<owners>Jason Capriotti</owners>
 		<summary>This file contains the Epson Perfection V33, V330 Photo EPSON Scan Utility and Scanner Driver (TWAIN) v3.9.2.2</summary>
-		<description>This file contains the Epson Perfection V33, V330 Photo EPSON Scan Utility and Scanner Driver (TWAIN) v3.9.2.2. Windows 10 32-bit, Windows 10 64-bit, Windows 8.1 32-bit, Windows 8.1 64-bit, Windows 8 32-bit, Windows 8 64-bit, Windows 7 32-bit, Windows 7 64-bit, Windows Vista 32-bit, Windows Vista 64-bit, Windows XP 32-bit, Windows XP 64-bit</description>
-		<projectUrl>http://www.epson.com/cgi-bin/Store/support/supDetail.jsp?oid=154806</projectUrl>
+		<description>This file contains the Epson Perfection V33, V330 Photo EPSON Scan Utility and Scanner Driver (TWAIN) v3.9.2.2. Compatible systems: Windows 10 32-bit, Windows 10 64-bit, Windows 8.1 32-bit, Windows 8.1 64-bit, Windows 8 32-bit, Windows 8 64-bit, Windows 7 32-bit, Windows 7 64-bit, Windows XP 32-bit, Windows XP 64-bit, Windows Vista 32-bit, Windows Vista 64-bit</description>
+		<projectUrl>https://epson.com/Support/Scanners/Perfection-Series/Epson-Perfection-V33/s/SPT_B11B200201</projectUrl>
 		<tags>Epson Perfection Scan</tags>
 		<copyright></copyright>
-		<licenseUrl>http://www.epson.com/cgi-bin/Store/support/SupportLicense_alt.jsp?licenseoid=17774</licenseUrl>
+		<licenseUrl>https://epson.com/SoftwareLicenseAgreement</licenseUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<iconUrl>https://cdn.rawgit.com/JCapriotti/chocolatey/master/Epson-Perfection-V33-Scanner/icon128.png</iconUrl>
+		<packageSourceUrl>https://github.com/JCapriotti/chocolatey-packages/tree/master/Epson-Perfection-V33-Scanner</packageSourceUrl>
 	</metadata>
 	<files>
 		<file src="tools\**" target="tools" />
